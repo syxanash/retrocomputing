@@ -14,9 +14,9 @@ Fizz-Buzz :heart:
 
 ## Last test
 
-_O Tanenbaum_ :christmas_tree:
+A lovely Christmas tree :christmas_tree:
 
-![christmas](http://i.imgur.com/F7Yz6Xd.gif)
+![christmas](http://i.imgur.com/Eg5gGj6.png)
 
 ## About
 
