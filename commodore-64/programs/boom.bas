@@ -1,5 +1,5 @@
 5 poke 53281,14:print chr$(147):poke 53281,6
-10 for l = 1 to 20
+10 for l = 1 to 30
 20 poke 1024 + int(rnd(1)*1000), 164
 21 poke 1024 + int(rnd(1)*1000), 163
 30 next l
@@ -12,8 +12,10 @@
 100 for t = 1 to 10 : next
 110 poke 1024 + ex + 40*ey,32
 120 ex = ex + dx
+125 if peek(1024 + ex + 40*ey) = 163 then dx = -dx : goto 120
 130 if ex <= 0 or ex >= 39 then dx = -dx
 140 ey = ey + dy
+145 if peek(1024 + ex + 40*ey) = 163 then dy = -dy : goto 140
 150 if ey <= 0 or ey >= 24 then dy = -dy
 160 po = 1024 + x + 40*y
 170 poke po,65
