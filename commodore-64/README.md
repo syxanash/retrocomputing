@@ -27,6 +27,13 @@ If you want to use joysticks you should replace the line 180 like the following 
 180 A = PEEK(56320)  
 ```
 
+If you have troubles using the joystick just read the [C64 Wiki](https://www.c64-wiki.com/wiki/Joystick) or try to debug your joystick movements with the following small program:
+
+```
+10 PRINT PEEK(56320): GOTO 10
+RUN
+```
+
 Here's a short demo on VICE:
 
 [![BOOMBAS](https://thumbs.gfycat.com/BraveCelebratedAfricanrockpython-size_restricted.gif)](https://gfycat.com/BraveCelebratedAfricanrockpython)
