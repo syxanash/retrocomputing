@@ -21,7 +21,7 @@ The version uploaded on GitHub can easily be imported in [VICE emulator](http://
 |5|quit|
 
 This key combination was heavily improvised due to the fact that the original program works with a joystick thus PEEKing from the memory address 56320.
-If you want to use joysticks you should replace the line 180 like this and chaning the if statements with the values of the memory address according to the slot number.
+If you want to use joysticks you should replace the line 180 like the following code and chaning the if statements with the values of the memory address according to the slot number.
 
 ```
 180 A = PEEK(56320)  
