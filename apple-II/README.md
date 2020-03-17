@@ -2,7 +2,7 @@
 
 A European Apple IIe I found in an old school.
 
-![my old Apple //e](http://i.imgur.com/9Utsk0f.png)
+![my old Apple //e](images/main.png)
 
 Here you can find some of the programs I wrote on this old Apple II in [Applesoft BASIC](http://en.wikipedia.org/wiki/Applesoft_BASIC) language.
 
@@ -10,13 +10,13 @@ Here you can find some of the programs I wrote on this old Apple II in [Applesof
 
 Fizz-Buzz :heart:
 
-![fizz-buzz](http://i.imgur.com/Wdag0gB.gif)
+![fizz-buzz](images/fizz-buzz.gif)
 
 ## Last test
 
 A lovely Christmas tree :christmas_tree:
 
-![christmas](http://i.imgur.com/Eg5gGj6.png)
+![christmas](images/christmas-tree.png)
 
 ## About
 

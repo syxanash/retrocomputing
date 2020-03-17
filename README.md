@@ -1,3 +1,13 @@
-# Retrocomputing 📺💾
+# Retrocomputing
 
-This repository contains tests and programs I wrote for old computers such as **Commodore 64** and **Apple //e** that I was able to recover in various thrift shops.
+![logo](logo.gif)
+
+## Description
+
+This is a repository of experiments and tests I made for old computers harvested from various thrift shops and online auctions.
+
+## List of computers
+
+* Apple IIe
+* Commodore 64
+* Macintosh Plus

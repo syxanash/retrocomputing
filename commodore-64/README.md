@@ -2,7 +2,7 @@
 
 A Commodore 64 bought in a thrift shop along with a 1530 Datassette
 
-![Commodore 64](https://i.imgur.com/OMotnx7.jpg)
+![Commodore 64](images/main.jpg)
 
 after a few weeks trying to make it work with modern TVs I finally succeeded making it run games and programs written in BASIC.
 
@@ -36,4 +36,4 @@ RUN
 
 Here's a short demo on VICE:
 
-[![BOOMBAS](https://thumbs.gfycat.com/BraveCelebratedAfricanrockpython-size_restricted.gif)](https://gfycat.com/BraveCelebratedAfricanrockpython)
+[![BOOMBAS](images/gameplay.gif)](https://gfycat.com/BraveCelebratedAfricanrockpython)
