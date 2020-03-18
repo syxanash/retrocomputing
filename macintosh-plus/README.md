@@ -26,13 +26,13 @@ Another experiment I decided to try was loading the first version of Photoshop, 
 The final test was to export a picture made with _MacPaint_ onto a modern operating system in order to upload it on my website or simply to see if I could do it. Long story short I actually achived this by:
 
 * creating the picture in MacPaint
-* opening the picture in Photoshop 1.0 and exporting it as a readable format (CompuServe GIF 87a)
+* opening the picture in Photoshop 1.0 and exporting it as a readable format (CompuServe GIF)
 * saving the gif on the hard disk emulated with Floppy EMU
 * transfering hard disk image file from the SD Card to my Macbook Pro
 * loading the hard disk image into [Mini vMac](https://www.gryphel.com/c/minivmac)
 * exporting the actual gif image inside the hard disk using [ExportFl](https://www.gryphel.com/c/minivmac/extras/exportfl)
 
-And _boom_ here's the actual [picture](images/pippo.gif)!
+And _boom_ here's the final [picture](images/pippo.gif). Now open it with an [hex editor](https://hexed.it) and read the first **6 bytes** ;)
 
 This is a video I made during this ~~useless~~ whacky experiment:
 

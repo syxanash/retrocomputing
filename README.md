@@ -8,6 +8,6 @@ This is a repository of experiments and tests I made for old computers harvested
 
 ## List of computers
 
-* Apple IIe
-* Commodore 64
-* Macintosh Plus
+* [Apple IIe](apple-II/README.md)
+* [Commodore 64](commodore-64/README.md)
+* [Macintosh Plus](macintosh-plus/README.md)
