@@ -23,7 +23,7 @@ So as a _second_ Christmas present I bought myself a [Floppy Emu](https://www.bi
 
 Another experiment I decided to try was loading the first version of Photoshop, or to be precise the [0.63 and 1.0.7](https://winworldpc.com/product/adobe-photoshop/10). It honestly took me a while to find a good copy online. Useless to say it's some really fine piece of software for its age although I did encounter some unusually slow loading bars when rendering some pictures.
 
-The final test was to export a picture made with _MacPaint_ onto a modern operating system in order to upload it on my website or simply to see if I could do it. Long story short I actually achived this by:
+The **final test** was to export a picture made with _MacPaint_ onto a modern operating system in order to upload it on my website or simply to see if I could do it. Long story short I actually achived this by:
 
 * creating the picture in MacPaint
 * opening the picture in Photoshop 1.0 and exporting it as a readable format (CompuServe GIF)
