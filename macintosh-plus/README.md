@@ -34,6 +34,8 @@ The **final test** was to export a picture made with _MacPaint_ onto a modern op
 
 And _boom_ here's the final [picture](images/pippo.gif). Now open it with an [hex editor](https://hexed.it) and read the first **6 bytes** ;)
 
-This is a video I made during this ~~useless~~ whacky experiment:
+Here's a full detailed explanation of how I accomplished this experiment: https://system32.simone.computer/post/2
+
+While here's a small tutorial I recorded during the pandemic:
 
 [![tutorial](https://img.youtube.com/vi/dWgglyak6jA/0.jpg)](https://www.youtube.com/watch?v=dWgglyak6jA)
