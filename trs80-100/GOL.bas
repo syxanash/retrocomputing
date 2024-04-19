@@ -41,10 +41,11 @@ for i = 0 to grid-1
 	' print i; ") "; "analyzing "; cgen(i)
 	gosub print_loader
 
-	' the formula is: (a % w) + (w * r) where w = width, r = row and A can be:
+	' the formula is: (a % w) + (w * r) where w = cols, r = row and "a" can be:
 	'  -w-1 , -w  ,  +w+1
 	'  -1   ,  i  ,  +1
 	'  +w-1 , +w  ,  +w+1
+	' "i" is the current cell being scanned
 	
 	' neighbors
 	ngb = 0
@@ -53,6 +54,7 @@ for i = 0 to grid-1
 	tr = (((rc - 1) + rows) mod rows)
 	' bottom row
 	br = ((rc + 1) mod rows)
+	' current row is stored in rc (row counter)
 
 	a = (((((i - 1) mod cols)) + cols) mod cols) + (cols*rc)
 	b = ((i + 1) mod cols) + (cols*rc)

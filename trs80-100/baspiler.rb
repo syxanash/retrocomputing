@@ -54,4 +54,4 @@ end
 
 new_code = transpiled_code.join("\n")
 
-File.write('BEAU.BA', new_code)
+File.write('BEAU.bas', new_code)
