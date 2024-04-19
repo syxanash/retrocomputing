@@ -19,7 +19,6 @@ public class Neighbors {
             }
         }
 
-        int col = 0;
         int row = 0;
 
         for (int i = 0; i < grid.length; i++) {
@@ -47,7 +46,6 @@ public class Neighbors {
 
             System.out.println("neighbors: " + sum);
 
-            col = (col + 1) % width;
             if ((i+1) % width == 0)
                 row++;
         }

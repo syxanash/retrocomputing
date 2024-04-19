@@ -31,10 +31,8 @@ for i = 0 TO grid-1
 	if ((i+1) mod cols) = 0 then print ""
 next i
 
-'column counter
-labelA cc = 0
 ' row counter
-rc = 0
+labelA rc = 0
 
 ' find neighbors
 for i = 0 to grid-1
@@ -73,10 +71,9 @@ for i = 0 to grid-1
 	if cgen(i) = 1 and ngb > 3 then ngen(i) = 0
 	if cgen(i) = 0 and ngb = 3 then ngen(i) = 1
 
-	cc = (cc + 1) mod cols
 	if ((i + 1) mod cols) = 0 then rc = rc + 1
 next i
-
+	 
 cls
 
 for i = 0 TO grid-1
