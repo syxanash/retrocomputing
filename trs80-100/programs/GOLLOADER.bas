@@ -29,17 +29,19 @@ for i = 0 TO grid-1
 	if ((i+1) mod cols) = 0 then print ""
 next i
 
+gosub print_bar
+
 ' row counter
 labelA rc = 0
 
 boxco# = 0
-mabox = 37
+mabox = cols - 1
 passo# = mabox / grid
 
 ' find neighbors
 for i = 0 to grid-1
 	' print i; ") "; "analyzing "; cgen(i)
-	gosub print_loader
+	gosub inc_loader
 
 	' the formula is: (a % w) + (w * r) where w = cols, r = row and "a" can be:
 	'  -w-1 , -w  ,  +w+1
@@ -85,12 +87,20 @@ for i = 0 TO grid-1
 	cgen(i) = ngen(i)
 next i
 
+gosub print_bar
+
 goto labelA
 
-function print_loader
+function inc_loader
 	boxco# = (boxco# + passo#)
 
 	for j = 0 to int(boxco#)
-		print @318, "|"; : print @280 + j, chr$(239);
+		print @280 + j, chr$(239);
+	next j
+return
+
+function print_bar
+	for j = 0 to cols-1
+		print @280 + j, chr$(255);
 	next j
 return
