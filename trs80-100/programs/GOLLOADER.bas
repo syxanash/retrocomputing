@@ -11,7 +11,7 @@ grid = cols * rows
 dim cgen(grid)
 dim ngen(grid)
 
-input "enter random seed"; seed%
+input "enter random seed (1 to 5 digits)"; seed%
 
 lf = int(rnd(SEED%*-2))
 
