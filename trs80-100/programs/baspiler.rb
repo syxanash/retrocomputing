@@ -6,8 +6,8 @@ goto_map = {}
 gosub_map = Set.new
 counter = 0
 
-lines_of_code.each_with_index do |row, index|
-  line_number = index.zero? ? 5 : counter * 10
+lines_of_code.each do |row|
+  line_number = counter * 10
 
   next if row.strip == ''
 
