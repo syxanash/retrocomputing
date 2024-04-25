@@ -1,3 +1,6 @@
+' this version is the same as GOL.bas except
+' it has a loading bar at the bottom instead of a spinner
+
 cls
 
 input "enter column size"; cols
@@ -86,11 +89,8 @@ goto labelA
 
 function print_loader
 	boxco# = (boxco# + passo#)
-	boxes$ = ""
 
 	for j = 0 to int(boxco#)
-		boxes$ = boxes$ + chr$(239)
+		print @318, "|"; : print @280 + j, chr$(239);
 	next j
-
-	print @318, "|"; : print @280, boxes$;
 return
