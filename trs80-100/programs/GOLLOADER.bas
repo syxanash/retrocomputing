@@ -89,7 +89,7 @@ function print_loader
 	boxes$ = ""
 
 	for j = 0 to int(boxco#)
-		boxes$ = boxes$ + "="
+		boxes$ = boxes$ + chr$(239)
 	next j
 
 	print @318, "|"; : print @280, boxes$;
