@@ -54,4 +54,4 @@ end
 
 new_code = transpiled_code.join("\n")
 
-File.write(ARGV[0].split('.').join('C.'), new_code)
+File.write(ARGV[0].split('.').join('T.'), new_code)
