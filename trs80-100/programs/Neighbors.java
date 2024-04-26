@@ -29,7 +29,7 @@ public class Neighbors {
             int bottom_row = ((row + 1) % height);
 
             // the formula is: (a % w) + (w * r) where w = width, r = row and A can be:
-            //  -w-1 , -w  ,  +w+1
+            //  -w-1 , -w  ,  -w+1
             //  -1   ,  i  ,  +1
             //  +w-1 , +w  ,  +w+1
 
