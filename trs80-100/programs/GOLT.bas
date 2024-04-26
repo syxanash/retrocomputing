@@ -3,7 +3,7 @@
 20 LC$(0) = "/"
 30 LC$(1) = "-"
 40 LC$(2) = "\"
-50 LC$(3) = "|"
+50 LC$(3) = CHR$(245)
 60 INPUT "ENTER COLUMN SIZE"; COLS
 70 INPUT "ENTER ROWS SIZE"; ROWS
 80 GRID = COLS * ROWS

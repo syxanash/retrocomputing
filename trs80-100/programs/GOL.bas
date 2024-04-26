@@ -3,7 +3,7 @@ cuco = 0
 lc$(0) = "/"
 lc$(1) = "-"
 lc$(2) = "\"
-lc$(3) = "|"
+lc$(3) = chr$(245)
 
 input "enter column size"; cols
 input "enter rows size"; rows
