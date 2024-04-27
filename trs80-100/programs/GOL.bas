@@ -22,17 +22,20 @@ print "initialising grid..."
 for i = 0 TO grid
 	lf = int(2*rnd(1))
 	cgen(i) = lf
+	ngen(i) = cgen(i)
 next i
 
-cls
+labelA cls
 
 for i = 0 TO grid-1
-	if cgen(i) = 0 then print " "; else print "@";
+	if ngen(i) = 0 then print " "; else print "@";
 	if ((i+1) mod cols) = 0 then print ""
+
+	cgen(i) = ngen(i)
 next i
 
 ' row counter
-labelA rc = 0
+rc = 0
 
 ' find neighbors
 for i = 0 to grid-1
@@ -72,15 +75,6 @@ for i = 0 to grid-1
 	if cgen(i) = 0 and ngb = 3 then ngen(i) = 1
 
 	if ((i + 1) mod cols) = 0 then rc = rc + 1
-next i
-	 
-cls
-
-for i = 0 TO grid-1
-	if ngen(i) = 0 then print " "; else print "@";
-	if ((i+1) mod cols) = 0 then print ""
-
-	cgen(i) = ngen(i)
 next i
 
 goto labelA

@@ -43,12 +43,6 @@ for i = 0 to grid-1
 	' print i; ") "; "analyzing "; cgen(i)
 	gosub inc_loader
 
-	' the formula is: (a % w) + (w * r) where w = cols, r = row and "a" can be:
-	'  -w-1 , -w  ,  -w+1
-	'  -1   ,  i  ,  +1
-	'  +w-1 , +w  ,  +w+1
-	' "i" is the current cell being scanned
-	
 	' neighbors
 	ngb = 0
 
