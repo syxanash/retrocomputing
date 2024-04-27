@@ -27,6 +27,8 @@ next i
 
 labelA cls
 
+beep
+
 for i = 0 TO grid-1
 	if ngen(i) = 0 then print " "; else print "@";
 	if ((i+1) mod cols) = 0 then print ""
