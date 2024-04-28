@@ -69,12 +69,11 @@ for i = 0 to grid-1
 	h = ((i + cols - 1) mod cols) + (cols*br)
 
 	ngb = cgen(a) + cgen(b) + cgen(c) + cgen(d) + cgen(e) + cgen(f) + cgen(g) + cgen(h)
-	
+
 	' gam of life rules
-	if cgen(i) = 1 and ngb < 2 then ngen(i) = 0
-	if cgen(i) = 1 and (ngb = 2 or ngb = 3) then ngen(i) = 1
-	if cgen(i) = 1 and ngb > 3 then ngen(i) = 0
-	if cgen(i) = 0 and ngb = 3 then ngen(i) = 1
+	if ngb < 2 then ngen(i) = 0
+	if ngb > 3 then ngen(i) = 0
+	if ngen(i) = 0 and ngb = 3 then ngen(i) = 1
 
 	if ((i + 1) mod cols) = 0 then rc = rc + 1
 next i
