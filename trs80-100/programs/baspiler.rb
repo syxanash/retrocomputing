@@ -34,7 +34,7 @@ lines_of_code.each do |row|
     end
   end
 
-  if row =~ /^goto\s(.*?)$/
+  if row =~ /goto\s(.*?)(?:\s+(.*))?$/
     label_value = Regexp.last_match(1)
 
     if goto_map.keys.include?(label_value)
