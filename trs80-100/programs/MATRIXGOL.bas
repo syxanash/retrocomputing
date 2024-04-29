@@ -46,16 +46,14 @@ for i = 0 to rows-1
 
     ngb = 0
 
-    a = cgen(((((i-1) mod rows) + rows) mod rows), ((((j-1) mod cols) + cols) mod cols))
-    b = cgen(((((i-1) mod rows) + rows) mod rows), (((j mod cols) + cols) mod cols))
-    c = cgen(((((i-1) mod rows) + rows) mod rows), ((((j+1) mod cols) + cols) mod cols))
-    d = cgen((((i mod rows) + rows) mod rows), ((((j-1) mod cols) + cols) mod cols))
-    e = cgen((((i mod rows) + rows) mod rows), ((((j+1) mod cols) + cols) mod cols))
-    f = cgen(((((i+1) mod rows) + rows) mod rows), ((((j-1) mod cols) + cols) mod cols))
-    g = cgen(((((i+1) mod rows) + rows) mod rows), (((j mod cols) + cols) mod cols))
-    h = cgen(((((i+1) mod rows) + rows) mod rows), ((((j+1) mod cols) + cols) mod cols))
-
-    ngb = a + b + c + d + e + f + g + h
+    ngb = ngb + cgen(((((i-1) mod rows) + rows) mod rows), ((((j-1) mod cols) + cols) mod cols))
+    ngb = ngb + cgen(((((i-1) mod rows) + rows) mod rows), (((j mod cols) + cols) mod cols))
+    ngb = ngb + cgen(((((i-1) mod rows) + rows) mod rows), ((((j+1) mod cols) + cols) mod cols))
+    ngb = ngb + cgen((((i mod rows) + rows) mod rows), ((((j-1) mod cols) + cols) mod cols))
+    ngb = ngb + cgen((((i mod rows) + rows) mod rows), ((((j+1) mod cols) + cols) mod cols))
+    ngb = ngb + cgen(((((i+1) mod rows) + rows) mod rows), ((((j-1) mod cols) + cols) mod cols))
+    ngb = ngb + cgen(((((i+1) mod rows) + rows) mod rows), (((j mod cols) + cols) mod cols))
+    ngb = ngb + cgen(((((i+1) mod rows) + rows) mod rows), ((((j+1) mod cols) + cols) mod cols))
 
     ' gam of life rules
     if ngb < 2 then ngen(i, j) = 0
