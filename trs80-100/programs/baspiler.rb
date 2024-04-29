@@ -17,16 +17,32 @@ lines_of_code.each do |row|
   # replaces goto labels to line numbers
   if row =~ /^label(.*?)\s/
     label_value = Regexp.last_match(1)
+    full_label = "label#{label_value}"
 
-    goto_map["label#{label_value}"] = line_number
-    row.sub!("label#{label_value}", '')
+    if goto_map.keys.include?(full_label)
+      transpiled_code.each do |current_row|
+        if current_row.include? full_label.upcase
+          current_row.sub!(full_label.upcase, line_number.to_s)
+          row.sub!(full_label, '')
+        end
+
+        next
+      end
+    else
+      goto_map[full_label] = line_number
+      row.sub!(full_label, '')
+    end
   end
 
   if row =~ /^goto\s(.*?)$/
     label_value = Regexp.last_match(1)
 
-    goto_number = goto_map[label_value].to_s
-    row.sub!(label_value, goto_number)
+    if goto_map.keys.include?(label_value)
+      goto_number = goto_map[label_value].to_s
+      row.sub!(label_value, goto_number)
+    else
+      goto_map[label_value] = line_number.to_s
+    end
   end
 
   # replaces gosubs
