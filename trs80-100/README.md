@@ -17,5 +17,12 @@ https://github.com/syxanash/retrocomputing/assets/1325491/7c624b1c-6f77-4080-b8b
 
 Program `MATRIXGOL.bas` is another implementation of Game of Life using a multidimensional array and two nested FOR loops to go through the iterations.
 
-The transpiler written in Ruby is called `baspiler.rb` (BAsic tranSPILER 👀).
+The transpiler written in Ruby is called `baspiler.rb` (BAsic tranSPILER 👀). To use it simply run it like this:
+
+```
+ruby baspiler.rb PROGRAM.BAS
+```
+
+It will output a new file called: `PROGRAMT.BAS`.
+
 `Neighbours.java` instead is the algorithm I sketched before starting to write the actual code in BASIC.
