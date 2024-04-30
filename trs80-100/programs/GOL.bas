@@ -25,7 +25,7 @@ for i = 0 TO grid
 	ngen(i) = cgen(i)
 next i
 
-labelA cls
+label_main_loop cls
 
 beep
 
@@ -78,7 +78,7 @@ for i = 0 to grid-1
 	if ((i + 1) mod cols) = 0 then rc = rc + 1
 next i
 
-goto labelA
+goto label_main_loop
 
 function print_loader
 	print @318, lc$(cuco);
