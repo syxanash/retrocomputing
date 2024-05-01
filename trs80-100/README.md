@@ -15,7 +15,7 @@ The program `GOLLOADER.bas` does the same thing but it also shows a loading bar 
 
 https://github.com/syxanash/retrocomputing/assets/1325491/7c624b1c-6f77-4080-b8b3-378c8cf455c5
 
-Program `MATRIXGOL.bas` is another implementation of Game of Life using a multidimensional array and two nested FOR loops to go through the iterations.
+Program `MATRIXGOL.bas` is another implementation of Game of Life using a multidimensional array and two nested FOR loops to calculate the generations.
 
 The transpiler written in Ruby is called `baspiler.rb` (BAsic tranSPILER 👀). To use it simply run it like this:
 
