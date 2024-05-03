@@ -14,7 +14,6 @@ lines_of_code.each do |row|
   # remove comments
   next if row.strip.start_with?('\'')
 
-  # replaces goto labels to line numbers
   if row =~ /^label(.*?)\s/
     label_value = Regexp.last_match(1)
     full_label = "label#{label_value}"
@@ -45,7 +44,6 @@ lines_of_code.each do |row|
     end
   end
 
-  # replaces gosubs
   if row =~ /gosub\s(.*?)$/
     gosub_map.add(Regexp.last_match(1))
   end
