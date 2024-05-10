@@ -2,11 +2,6 @@
 ' MOD operations the 8085 won't be slowed down while calculating neighbors
 
 cls
-cuco = 0
-lc$(0) = "/"
-lc$(1) = "-"
-lc$(2) = "\"
-lc$(3) = chr$(245)
 
 input "enter column size"; cols
 input "enter rows size"; rows
@@ -45,7 +40,7 @@ next i
 
 ' find neighbors
 for i = 0 to grid-1
-	gosub print_loader
+	print @280, "...";
 
 	' neighbors
 	ngb = 0
@@ -98,8 +93,3 @@ for i = 0 to grid-1
 next i
 
 goto label_main_loop
-
-function print_loader
-	print @318, lc$(cuco);
-	cuco = (cuco + 1) mod 4
-return
