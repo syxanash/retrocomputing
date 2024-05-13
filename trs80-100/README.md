@@ -19,7 +19,7 @@ https://github.com/syxanash/retrocomputing/assets/1325491/7c624b1c-6f77-4080-b8b
 
 Program `MATRIXGOL.bas` is another implementation of Game of Life using a multidimensional array and two nested FOR loops to calculate the generations.
 
-Program `EVENFASTER.bas` is another implementation that does not contain all those MOD operations thus not slowing down the 8085 which does not have the native multiplication or division. It actually runs 10 seconds faster than the other ones :)
+Program `EVENFASTER.bas` is another implementation that does not contain all those MOD operations thus not slowing down the 8085 which does not have the native multiplication or division. It actually runs 30 seconds faster than the other ones :)
 
 The transpiler written in Ruby is called `baspiler.rb` (BAsic tranSPILER 👀). To use it simply run it like this:
 
