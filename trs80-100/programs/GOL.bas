@@ -58,15 +58,18 @@ for i = 0 to grid-1
 	' bottom row
 	br = ((rc + 1) mod rows)
 	' current row is stored in rc (row counter)
+	cc = i + cols
 
-	a = ((((i - 1) mod cols) + cols) mod cols) + (cols*rc)
-	b = ((i + 1) mod cols) + (cols*rc)
-	c = ((((i - cols - 1) mod cols) + cols) mod cols) + (cols*tr)
-	d = ((((i - cols + 1) mod cols) + cols) mod cols) + (cols*tr)
-	e = ((((i - cols) mod cols) + cols) mod cols) + (cols*tr)
-	f = ((i + cols) mod cols) + (cols*br)
-	g = ((i + cols + 1) mod cols) + (cols*br)
-	h = ((i + cols - 1) mod cols) + (cols*br)
+	a = ((cc - 1) mod cols) + (cols*rc)
+	b = ((cc + 1) mod cols) + (cols*rc)
+	
+	c = ((cc - 1) mod cols) + (cols*tr)
+	d = ((cc + 1) mod cols) + (cols*tr)
+	e = (cc mod cols) + (cols*tr)
+	
+	f = (cc mod cols) + (cols*br)
+	g = ((cc + 1) mod cols) + (cols*br)
+	h = ((cc - 1) mod cols) + (cols*br)
 
 	ngb = cgen(a) + cgen(b) + cgen(c) + cgen(d) + cgen(e) + cgen(f) + cgen(g) + cgen(h)
 
