@@ -12,3 +12,4 @@ This is a repository of experiments and tests I made for old computers harvested
 * [Commodore 64](commodore-64/README.md)
 * [Macintosh Plus](macintosh-plus/README.md)
 * [TRS-80 Model 100](trs80-100/README.md)
+* [Powerbook Duo 280c](powerbook-duo-280c/README.md)
