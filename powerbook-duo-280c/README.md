@@ -26,7 +26,7 @@ The exported REALbasic source code is available [here](source.bas). The code is 
 
 ## Basilisk Demo
 
-<div style='max-width: 400px; margin: auto; padding-top: 10px; padding-bottom: 10px'><video loop muted controls style='max-width: 100%; max-height: 100%;'><source src="media/basilisk.mp4"></video></div>
+https://github.com/user-attachments/assets/70634e3e-6663-42cd-b5cc-a879ae687da9
 
 ## Pics
 
