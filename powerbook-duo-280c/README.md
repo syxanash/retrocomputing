@@ -7,7 +7,7 @@
 I've designed the Virus Launch Panel from the movie Hackers (1995) for a PowerBook Duo 280c.
 This REALbasic app connects to an online TCP server and posts a tweet to the Bluesky account: [@hacktheplanet.simone.computer](https://bsky.app/profile/hacktheplanet.simone.computer)
 
-![warn](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAElBMVEUAAACAgAD//wAAAACAgID///9DTNBXAAAAAXRSTlMAQObYZgAAAAFiS0dEBfhv6ccAAAAHdElNRQfiBhoAKi/jBqMDAAAAUUlEQVQI1z2MwQ2AMAwDnQ2gbOAsgNoMEEH3n4kkRb3XST4ZAM4DhVC3eEkj7yVKW8vousUrGb2ixqtlJKQyn0KCiOLlffLpF0tJDDKKCczCP9tqDg+12hjAAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTA2LTI2VDAwOjQyOjQ3LTA0OjAwdbFsfgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wNi0yNlQwMDo0Mjo0Ny0wNDowMATs1MIAAAAASUVORK5CYII=) To run the app you need either Basilisk II or SheepShaver. Of course you can use a vintage Apple computer running the 68k/PowerPC architecture if you have one laying around.
+![warn](https://raw.githubusercontent.com/syxanash/awesome-web-desktops/main/assets/warning.png) To run the app you need either Basilisk II or SheepShaver. Of course you can use a vintage Apple computer running the 68k/PowerPC architecture if you have one laying around.
 
 If you open `Archive.sit` you should see the following files:
 
