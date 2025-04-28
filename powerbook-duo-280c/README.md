@@ -4,6 +4,8 @@
 
 ## Experiments
 
+![blog](https://raw.githubusercontent.com/syxanash/awesome-web-desktops/main/assets/notebook.png) Read my [blog post](https://system31.simone.computer/blog/recreating-hackers-movie-ui) about this project!
+
 I've designed the Virus Launch Panel from the movie Hackers (1995) for a PowerBook Duo 280c.
 This REALbasic app connects to an online TCP server and posts a tweet to the Bluesky account: [@hacktheplanet.simone.computer](https://bsky.app/profile/hacktheplanet.simone.computer)
 
