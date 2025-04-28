@@ -7,7 +7,7 @@
 I've designed the Virus Launch Panel from the movie Hackers (1995) for a PowerBook Duo 280c.
 This REALbasic app connects to an online TCP server and posts a tweet to the Bluesky account: [@hacktheplanet.simone.computer](https://bsky.app/profile/hacktheplanet.simone.computer)
 
-![warn](https://raw.githubusercontent.com/syxanash/awesome-web-desktops/main/assets/warning.png) To run the app you need either Basilisk II or SheepShaver. Of course you can use a vintage Apple computer running the 68k/PowerPC architecture if you have one laying around.
+![warn](https://raw.githubusercontent.com/syxanash/awesome-web-desktops/main/assets/warning.png) To run the app you need either Basilisk II or SheepShaver. Of course, you can use a vintage Apple computer running the 68k/PowerPC architecture if you have one lying around.
 
 If you open `Archive.sit` you should see the following files:
 
