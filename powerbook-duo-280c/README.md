@@ -26,6 +26,12 @@ Just open one of the executable and use my proxy to run the program and send the
 
 The exported REALbasic source code is available [here](source.bas). The code is a bit messy and definitely needs some polishing, but I'm more than happy with the result! :)
 
+## Requirements
+
+* The executables were tested on Mac OS 8.0/8.1 and Mac OS 9.<br>
+* QuickTime 2.5 is required for the animations and images to work.<br>
+* At least 2 MB of free RAM are needed for the app to run correctly.
+
 ## Basilisk Demo
 
 https://github.com/user-attachments/assets/70634e3e-6663-42cd-b5cc-a879ae687da9
