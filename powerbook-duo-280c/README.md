@@ -11,6 +11,12 @@ This REALbasic app connects to an online TCP server and posts a tweet to the Blu
 
 ![warn](https://raw.githubusercontent.com/syxanash/awesome-web-desktops/main/assets/warning.png) To run the app you need either Basilisk II or SheepShaver. Of course, you can use a vintage Apple computer running the 68k/PowerPC architecture if you have one lying around.
 
+* The executables were tested on Mac OS 7.5, 8.0, 8.1 and 9.<br>
+* [QuickTime 2.5](https://macintoshgarden.org/apps/quicktime-2) is required for the animations and images to work.<br>
+* At least 2 MB of free RAM are needed for the app to run correctly.
+
+## Usage
+
 If you open `Archive.sit` you should see the following files:
 
 ```
@@ -25,12 +31,6 @@ If you open `Archive.sit` you should see the following files:
 Just open one of the executable and use my proxy to run the program and send the tweet to the Bluesky bot: `proxy.hacktheplanet.simone.computer` on the port `8080`. If for some reason I took down the proxy server, you can still test of the animations by entering any HTTP host on the port 80 e.g. `frogfind.com` / `80`.
 
 The exported REALbasic source code is available [here](source.bas). The code is a bit messy and definitely needs some polishing, but I'm more than happy with the result! :)
-
-## Requirements
-
-* The executables were tested on Mac OS 7.5, 8.0, 8.1 and 9.<br>
-* [QuickTime 2.5](https://macintoshgarden.org/apps/quicktime-2) is required for the animations and images to work.<br>
-* At least 2 MB of free RAM are needed for the app to run correctly.
 
 ## Basilisk Demo
 
