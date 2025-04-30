@@ -36,4 +36,4 @@ RUN
 
 Here's a short demo on VICE:
 
-[![BOOMBAS](images/gameplay.gif)](https://gfycat.com/BraveCelebratedAfricanrockpython)
+[![BOOMBAS](images/gameplay.gif)](https://www.youtube.com/watch?v=kuTD_HX8cwM)
