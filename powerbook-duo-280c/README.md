@@ -32,6 +32,8 @@ Just open one of the executable and use my proxy to run the program and send the
 
 The exported REALbasic source code is available [here](source.bas). The code is a bit messy and definitely needs some polishing, but I'm more than happy with the result! :)
 
+🔥 If you're running the app on your vintage Apple computer feel free to take a picture and tag me on Bluesky I'll repost it!
+
 ## Basilisk Demo
 
 https://github.com/user-attachments/assets/70634e3e-6663-42cd-b5cc-a879ae687da9
