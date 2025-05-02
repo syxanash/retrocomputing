@@ -4,7 +4,7 @@
 
 ## Experiments
 
-Full blog post available here: https://system31.simone.computer/blog/game-of-life-trs80
+Full blog post available here: https://blog.simone.computer/game-of-life-trs80
 
 Here you can find a Game of Life algorithms I wrote for TRS-80 model 100.
 The file with `*T.bas` are transpiled BASIC programs. The simplified ones are those without the `T` at the end of the file name and are slighly easier to read without line numbers.
