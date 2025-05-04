@@ -17,7 +17,7 @@ This REALbasic app connects to an online TCP server and posts a tweet to the Blu
 
 ## Usage
 
-If you open `Archive.sit` you should see the following files:
+If you open [Archive.sit](https://github.com/syxanash/retrocomputing/raw/refs/heads/master/powerbook-duo-280c/Archive.sit) you should see the following files:
 
 ```
 ├── assets/         // all assets used in the application
