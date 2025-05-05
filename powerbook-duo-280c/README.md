@@ -23,7 +23,7 @@ To run the app you need either Basilisk II or SheepShaver. Of course, you can us
 
 ## Usage
 
-If you open [Archive.sit](https://github.com/syxanash/retrocomputing/raw/refs/heads/master/powerbook-duo-280c/Archive.sit) you should see the following files:
+Unpack [Archive.sit](https://github.com/syxanash/retrocomputing/raw/refs/heads/master/powerbook-duo-280c/Archive.sit) in your Classic Macintosh environment, you should see the following files:
 
 ```
 ├── assets/         // all assets used in the application
