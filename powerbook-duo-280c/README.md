@@ -17,7 +17,7 @@ This REALbasic app connects to an online TCP server and posts a tweet to the Blu
 
 To run the app you need either Basilisk II or SheepShaver. Of course, you can use a vintage Apple computer running the 68k/PowerPC architecture if you have one lying around.
 
-* The executables were tested on Mac OS 7.5, 8.0, 8.1 and 9.<br>
+* The executables were tested on Mac OS 7, 7.5, 8.0, 8.1 and 9.<br>
 * [QuickTime 2.5](https://macintoshgarden.org/apps/quicktime-2) is required for the animations and images to work.<br>
 * At least 2 MB of free RAM are needed for the app to run correctly.
 
